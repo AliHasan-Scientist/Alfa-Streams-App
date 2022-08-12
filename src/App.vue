@@ -1,28 +1,18 @@
 <template>
-
-  <AppHeader logo="Alfa-Streams"/>
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
-  <New name="Dr Ali Hasan"/>
+  <AppHome/>
 </template>
-
 <script>
-import AppHeader from "./components/AppHeader";
-import HelloWorld from './components/HelloWorld.vue';
-import New from './components/New'
-
+import AppHome from "./components/AppHome";
 
 export default {
   name: 'App',
-
   components: {
-    HelloWorld,
-    New,
-    AppHeader
+    AppHome
 
   }
 }
 </script>
 
-<style>
+<style scoped>
 
 </style>
